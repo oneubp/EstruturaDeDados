@@ -36,7 +36,6 @@ const runAndMeasure = (sortFunction: (v: number[]) => void, arraySize: number, s
 
 const sortInstance = new Sort<number>();
 
-// Comparar diferentes algoritmos para 1.000, 10.000 e 100.000 elementos
 [1000, 10000, 100000].forEach(size => {
     console.log(`\nComparando para ${size} elementos:\n`);
 
